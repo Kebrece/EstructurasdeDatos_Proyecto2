@@ -1,0 +1,17 @@
+string foo(int n){
+    int valor = 10
+    string texto = "Mayor"
+    if (n > 10){
+        valor = 20
+        return valor
+    }
+    return "Menor"
+}
+
+void algo(float x, int y){
+    int numero = x
+    float flotante = y
+}
+
+string cadena = foo(valor)
+algo(3, 100)
