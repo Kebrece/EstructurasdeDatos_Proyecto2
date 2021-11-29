@@ -1,5 +1,4 @@
 import queue
-from queue import LifoQueue
 import re
 
 #Clase que guarda los elementos de cada declaracion (tipo, nombre, valor)

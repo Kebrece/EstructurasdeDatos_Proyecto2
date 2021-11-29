@@ -3,8 +3,11 @@
 #Kevin Brenes Cerdas
 #Jairo Ulloa Rodriguez
 import hashTable
+import Parser
 
+parser = Parser.Parser()
+parser.imprimirArchivo()
 table = hashTable.HashTable()
-table.readCode("incorrecto.txt")
+table.readCode(parser.getFileName())
 
 
